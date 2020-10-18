@@ -181,7 +181,7 @@ int main() {
           close(fd1);
         }
         
-        execv(arguments[0], &arguments[0]);
+        execvp(arguments[0], &arguments[0]);
         perror("Can't Execute\n");  
 				exit(1); 
       }
