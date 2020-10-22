@@ -216,8 +216,8 @@ int main() {
     // man pipes
   }
 // This should never be reached.
-  return -1;
 }
+return -1;
 }
 
 
